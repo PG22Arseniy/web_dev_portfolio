@@ -1,11 +1,12 @@
+import Layout from "@/components/Layout";
 import React from "react";
 
 const Projects = () => {
     return (
-        <div>
-            <h1> My Projects </h1>
-            
-        </div>
+
+        <Layout title="Projects">
+            <h1> My Projects</h1>
+        </Layout>
     )
 }
 
