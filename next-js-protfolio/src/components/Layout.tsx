@@ -19,15 +19,29 @@ const Layout = ({title, children}:LayoutProps) => {
             <div className="pageContainer">
                 <header>
                     <nav>
-                        <Link href='/'> Portfolio </Link>
-                        <div className="hamburger">
-                            <Link href='/projects'> Projects </Link>
-                            <Link href='/about'> About me </Link>
-                            <Link href='/resume'> Resume </Link>
-                            <Link href='/references'> References </Link>
-                            <Link href='/contact'> Contact me </Link>
+                        <div className="navbar">
+                        <div className ="container nav-container">
+                            <input title="hamburger" className="checkbox" type="checkbox" name="" id="" />
+                            <div className ="hamburger-lines">
+                                <span className ="line line1"></span>
+                                <span className ="line line2"></span>
+                                <span className ="line line3"></span>
+                            </div>  
+                            <div className ="logo">
+                                <h1>Navbar</h1>
+                            </div>
+                            <ul className ="menu-items">
+                                <li><a href="/">Portfolio</a></li>
+                                <li><a href="/about">About me</a></li>
+                                <li><a href="/references">References</a></li>
+                                <li><a href="/projects">Projects</a></li>
+                                <li><a href="/contact">Contact me</a></li>
+                                <li><a href="/resume">Resume me</a></li>
+                            </ul>
+                        </div>
                         </div>
                     </nav>
+
                 </header>
                 <main>
                     {children}
