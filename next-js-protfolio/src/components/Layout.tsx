@@ -26,10 +26,7 @@ const Layout = ({title, children}:LayoutProps) => {
                                 <span className ="line line1"></span>
                                 <span className ="line line2"></span>
                                 <span className ="line line3"></span>
-                            </div>  
-                            <div className ="logo">
-                                <h1>Navbar</h1>
-                            </div>
+                            </div>   
                             <ul className ="menu-items">
                                 <li><a href="/">Portfolio</a></li>
                                 <li><a href="/about">About me</a></li>
@@ -44,7 +41,9 @@ const Layout = ({title, children}:LayoutProps) => {
 
                 </header>
                 <main>
+                    <div className="pageContent">
                     {children}
+                    </div>
                 </main>
                 <footer>
                     <p>Copyright Arseniy Skudaev</p>
