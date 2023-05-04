@@ -26,7 +26,8 @@ const Layout = ({title, children}:LayoutProps) => {
                                 <span className ="line line1"></span>
                                 <span className ="line line2"></span>
                                 <span className ="line line3"></span>
-                            </div>   
+                            </div>  
+                            <h1> Arseniy Skudaev </h1>  
                             <ul className ="menu-items">
                                 <li><a href="/">Portfolio</a></li>
                                 <li><a href="/about">About me</a></li>
@@ -45,7 +46,7 @@ const Layout = ({title, children}:LayoutProps) => {
                     {children}
                     </div>
                 </main>
-                <footer>
+                <footer className="footer"> 
                     <p>Copyright Arseniy Skudaev</p>
                 </footer>
             </div>

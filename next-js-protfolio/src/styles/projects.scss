@@ -1,0 +1,90 @@
+.collection{
+    margin: 20px; 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    h1 {
+        text-align: center;
+        font-size: x-large;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .carousel{
+        width: 400px;
+        height: 700px; 
+        position: relative;
+
+
+        ul {
+            margin: 0;
+            padding: 0;
+            list-style: none; 
+        }
+
+        .slide{
+            position: absolute;
+            inset: 0; 
+            opacity: 0;
+            transition: 200ms opacity ease-in-out; 
+            transition-delay: 200ms;
+
+            img { 
+                margin: auto; 
+                display: block; 
+                background-color: aqua; 
+                width: 100%; 
+            }
+            .card {
+                height: 700px;  
+                h3 {
+                    flex: 0.1;
+                }
+                img{
+                    flex: 0.6;
+                }
+                .description{ 
+                    flex:0.3; 
+                    display:flex;
+                    flex-direction: column;
+                    justify-content: space-around;
+                    align-items: center; 
+                    p{
+                        text-align: center; 
+                    }
+                } 
+            }
+        } 
+
+        .active{
+            opacity: 1;
+            transition-delay: 0ms;  
+        }
+
+        button {
+           position: absolute; 
+           background: none;
+           border: none;
+           font-size: 4rem;
+           top:50%;
+           z-index: 2;
+           transform: translateY(-50%);
+           color:azure;
+           cursor: pointer;
+           border-radius: 0.5rem;
+           padding: 0.5rem;
+           background-color: rgba(0,0,0, .5); 
+        }
+        button:hover, button:focus{
+          //  color: white;
+            background-color: rgba(0,0,0, .2);
+        }
+        button:focus{
+            outline: 1px solid black;  
+        }
+        .prev {
+            left: -5rem;    
+        }
+        .next {
+            right: -5rem;  
+        }
+    }
+} 

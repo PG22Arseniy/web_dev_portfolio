@@ -1,3 +1,4 @@
+import CustomButton from "@/components/CustomButton";
 import Layout from "@/components/Layout";
 import jsPDF from "jspdf";
 import React, { useEffect, useState } from "react";
@@ -33,7 +34,7 @@ const Resume= () => {
                 ? 
                 <div className="resumePage">  
                     <img src= {IMAGE_LINK} alt="resume img png" />  
-                    <button onClick={saveResume}> Download Resume (PDF) </button>  
+                    <CustomButton onClick={saveResume}> Download Resume (PDF) </CustomButton>   
                 </div>
                 :
                 <div> Resume Not Found </div> 

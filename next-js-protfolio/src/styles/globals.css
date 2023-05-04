@@ -8,21 +8,36 @@
     font-family: "Poppins", sans-serif;
   }
   
+  a{
+    cursor: pointer ;
+  }
 
   .pageContent {
     width: 100%;
     margin: auto;
     padding: 20px 30px; 
-
+  
   }
+
+  @media screen and (max-width: 700px) { 
+    .pageContent{
+      padding: 20px 10px;
+    }
+}
+
 
   .pageContent h1 {
     text-align: center; 
   }
 
 
+  main {
+    min-height: 750px;   
+    background-color: antiquewhite; 
+  }
   .card {
-    box-shadow: beige ;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; 
+    border-radius: 4px; 
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -32,4 +47,21 @@
     width: 100%; 
   }
 
-  
+  .customButton{    
+
+    background-color: yellow; 
+    border: 2px gray solid; 
+    padding: 0.5rem;
+    font-weight: bold; 
+
+}
+
+.customButton:hover{
+    background-color: rgb(103, 233, 103); 
+}
+
+.customButton:disabled{ 
+    background-color: gray; 
+} 
+ 
+

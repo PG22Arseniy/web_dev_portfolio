@@ -9,7 +9,40 @@ const inter = Inter({ subsets: ['latin'] })
 export default function Home() {
   return (
   <Layout title='Portfolio'> 
-    <h1> Portfolio </h1> 
+    <h1> Frontend Developer / UI Engineer</h1> 
+    <div className='portfolioPage'>
+      <div className='content'>
+        <img src="/images/MyPhoto.jpeg" alt='my photo'/> 
+        <div className='skills_about'>
+          <div className='about'>
+            <p>
+              I have 3 years of professional experience in web development. I'm hardworking, passionate and motivated developer with excellent problem solving skills and work ethic. I love working in a team, collaborating with designers and other programmers.
+            </p>
+            <a href='' target="_blank" rel="noopener noreferrer"> Github </a>
+            <p> +1 604-396-7839 </p>
+          </div>
+          <div className='skills'>
+              <h3>Skills: </h3>
+              <ul> 
+                <li>JavaScript / TypeScript </li>
+                <li>OOP</li>
+                <li>HTML, CSS/SCSS</li>
+                <li>jQuery</li>
+                <li>React</li>
+                <li>Redux</li>
+                <li>Next js</li>
+                <li>Vue js</li>
+                <li>SQL</li>
+                <li>Mongo DB</li>
+                <li>Firebase</li>
+                <li>Open AI</li>
+              </ul>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
   </Layout>
   )
 }
