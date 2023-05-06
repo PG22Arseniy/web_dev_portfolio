@@ -10,8 +10,8 @@ const Contact= () => {
                 <div className="contactOptions"> 
                     <div className="contactOption"> 
                         <img src="/images/logos/TelephoneLogo.png" alt="Phone"/> 
-                        <p> +972 55-5617506 </p>
-                        <div className="logos">
+                        <p style={{width: "126px"}} > +972 55-5617506 </p>
+                        <div className="logos"> 
                             <img src="/images/logos/TelegramLogo.png" alt="Telegram"/>
                             <img src="/images/logos/WhatsAppLogo.png" alt="WhatsApp"  style={{height : "60px"}}/>  
                             <img src="/images/logos/ViberLogo.png" alt="Viber" style={{height : "60px"}}/>    
