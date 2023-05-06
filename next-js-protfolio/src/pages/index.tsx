@@ -20,6 +20,7 @@ export default function Home() {
             </p>
             <a href='' target="_blank" rel="noopener noreferrer"> Github </a>
             <p> +1 604-396-7839 </p>
+            <p> arseniyskudaev@gmail.com </p> 
           </div>
           <div className='skills'>
               <h3>Skills: </h3>
