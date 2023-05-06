@@ -31,10 +31,9 @@ const Layout = ({title, children}:LayoutProps) => {
                             <ul className ="menu-items">
                                 <li><a href="/">Portfolio</a></li>
                                 <li><a href="/about">About me</a></li>
-                                <li><a href="/references">References</a></li>
                                 <li><a href="/projects">Projects</a></li>
                                 <li><a href="/contact">Contact me</a></li>
-                                <li><a href="/resume">Resume me</a></li>
+                                <li><a href="/resume">Resume</a></li> 
                             </ul>
                         </div>
                         </div>

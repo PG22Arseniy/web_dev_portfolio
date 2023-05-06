@@ -1,0 +1,56 @@
+.intro {
+    max-width: 300px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 10px;
+    margin: 20px auto; 
+    border: 2px gray solid;
+    text-align: center;
+    @media screen and (max-width: 360px) {
+        border: none; 
+    }
+
+
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    @media screen and (max-width: 700px) {
+        flex-direction: column;
+    }
+
+
+
+
+
+    .aboutme {
+        flex: 0.6;
+
+        p {
+            padding: 5px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: justify;
+            @media screen and (max-width: 700px) {
+                flex-direction: column;
+                margin: 20px; 
+            }
+        
+        }
+
+        span {
+            font-weight: bold;
+
+        }
+
+    }
+
+    img {
+        width: 200px;
+        height: auto;
+        border-radius: 9999px;
+        flex: 0.2;
+    }
+
+}

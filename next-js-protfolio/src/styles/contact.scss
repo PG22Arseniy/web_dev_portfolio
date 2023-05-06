@@ -1,0 +1,55 @@
+.contactPage {
+
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    @media screen and (max-width: 960px) {
+        flex-direction: column;
+    }
+
+
+    .myPhoto {
+        border-radius: 9999px;
+
+        @media screen and (max-width: 520px) { 
+            width: 200px;
+            height: 250px;
+        }
+    }
+
+    .contactOptions {
+        flex: 0.5;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+
+        img {
+            width: auto;
+            height: 40px
+        }
+
+        .contactOption {
+            display: flex;
+            align-items: center;
+
+            img {
+                margin: 10px
+            }
+
+            .logos {
+                display: flex;
+                align-items: center;
+                @media screen and (max-width: 520px) { 
+                    flex-direction: column; 
+                }
+                
+            }
+
+            p {
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            }
+        }
+    }
+}
