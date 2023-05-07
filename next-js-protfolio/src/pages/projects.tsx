@@ -40,10 +40,10 @@ const Projects = () => {
                     <ul ref={imageListRef}>
                         <li className="slide" > 
                             <div className="card">
-                                <h3> Angry Birds</h3>
-                                <img src = "/images/shirt1.jpg" alt = "shirt1"/>
+                                <h3> Angry Football </h3> 
+                                <img src = "/images/projects/AngryFootball.png" alt = "shirt1"/> 
                                 <div className="description">
-                                    <p> Famous angry birds game with Box2D, Javascript, CSS, HTML  </p>
+                                    <p> Famous themed angry birds game with Box2D, Javascript, CSS, HTML  </p>
                                     <p className="link"> <a href="https://github.com/PG22Arseniy/AngryFootball.git" target="_blank" rel="noopener noreferrer"> Repository link </a> </p>
                                 </div>
                             </div>
@@ -51,7 +51,7 @@ const Projects = () => {
                         <li className="slide active"> 
                             <div className="card">
                                 <h3> Ecommerce Website</h3>
-                                <img src = "/images/shirt1.jpg" alt = "shirt1"/>
+                                <img src = "/images/projects/Ecommerce.png" alt = "Ecommerce Project"/>
                                 <div className="description">
                                     <p> My dummy online clothing shop made with: Next.js, React, MongoDB, TypeScript, HTML, CSS   </p>
                                     <p className="link"> <a href="https://github.com/PG22Arseniy/ecommerce_nextjs_react_mongodb.git" target="_blank" rel="noopener noreferrer"> Repository link </a> </p>
@@ -61,7 +61,7 @@ const Projects = () => {
                         <li className="slide">
                             <div className="card">
                                 <h3> Messenger for browser</h3>
-                                <img src = "/images/shirt1.jpg" alt = "shirt1"/>
+                                <img src = "/images/projects/Messenger.png" alt = "Messenger"/> 
                                 <div className="description">
                                     <p> Browser messenger made with: TypeScript, React, Stream, HTML, CSS   </p>
                                     <p className="link"> <a href="https://github.com/PG22Arseniy/AngryFootball.git" target="_blank" rel="noopener noreferrer"> Repository link </a> </p>
@@ -71,7 +71,7 @@ const Projects = () => {
                         <li className="slide">
                             <div className="card">
                                 <h3> Level Editor for "Angry birds" </h3>
-                                <img src = "/images/shirt1.jpg" alt = "shirt1"/>
+                                <img src = "/images/projects/LevelEditor.png" alt = "Level Editor"/>
                                 <div className="description">
                                     <p> Easy to use level editor for "Angry Birds" game. Designers can drag and drop obstacles and pigs, setting their stats and saving levels on local host. Made with: JavaScript, HTML, CSS </p>
                                     <p className="link"> <a href="https://github.com/PG22Arseniy/Level_Editor.git" target="_blank" rel="noopener noreferrer"> Repository link </a> </p>
@@ -81,7 +81,7 @@ const Projects = () => {
                         <li className="slide">
                             <div className="card">
                                 <h3> Telemetry App </h3>
-                                <img src = "/images/shirt1.jpg" alt = "shirt1"/>
+                                <img src = "/images/projects/Telemetry.png" alt = "Telemetry app"/>
                                 <div className="description">
                                     <p> Application that saves data to firebase storage and displays it in charts. Made with:  VueJS, axios, Firebase, JavaScript, HTML, CSS  </p>
                                     <p className="link"> <a href="https://github.com/PG22Arseniy/ArseniyTelemetryApp.git" target="_blank" rel="noopener noreferrer"> Repository link </a> </p>
@@ -91,7 +91,7 @@ const Projects = () => {
                         <li className="slide">
                             <div className="card">
                                 <h3> MineSweeper</h3>
-                                <img src = "/images/shirt1.jpg" alt = "shirt1"/>
+                                <img src = "/images/projects/MineSweeper.png" alt = "MineSweeper"/> 
                                 <div className="description">
                                     <p> Classic browser game made with: Javascript, CSS, HTML  </p>
                                     <p className="link"> <a href="https://github.com/PG22Arseniy/mineSweeperFinalProject.git" target="_blank" rel="noopener noreferrer"> Repository link </a> </p>

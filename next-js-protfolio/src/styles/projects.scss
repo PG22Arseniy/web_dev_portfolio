@@ -9,7 +9,7 @@
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
     .carousel{
-        width: 400px;
+        width: 700px; 
         height: 700px; 
         position: relative;
 
@@ -49,6 +49,9 @@
                     align-items: center; 
                     p{
                         text-align: center; 
+                        @media screen and (max-width: 900px) {
+                            width: 60%; 
+                        }
                     }
                 } 
             }
@@ -72,6 +75,11 @@
            border-radius: 0.5rem;
            padding: 0.5rem;
            background-color: rgba(0,0,0, .5); 
+
+           @media screen and (max-width: 900px) {
+                bottom: -2rem; 
+                 top:auto; 
+            }
         }
         button:hover, button:focus{
           //  color: white;
@@ -81,10 +89,16 @@
             outline: 1px solid black;  
         }
         .prev {
-            left: -5rem;    
+            left: -5rem;   
+            @media screen and (max-width: 900px) {
+                left: 5rem;;
+            } 
         }
         .next {
             right: -5rem;  
+            @media screen and (max-width: 900px) {
+                right: 5rem; 
+            }
         }
     }
 } 

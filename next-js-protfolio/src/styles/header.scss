@@ -98,6 +98,8 @@
             padding-left: 50px;
             transition: transform 0.5s ease-in-out;
             max-width: 220px;  
+            z-index: 2;
+            position: relative; 
 
             li {
                 margin-bottom: 1.2rem;
