@@ -23,6 +23,7 @@
     .pageContent{
       padding: 20px 10px;
       overflow-x: scroll;
+      min-width: 700px;
     }
     
 }
