@@ -18,8 +18,8 @@ export default function Home() {
             <p>
               I have 3 years of professional experience in web development. I'm hardworking, passionate and motivated developer with excellent problem solving skills and work ethic. I love working in a team, collaborating with designers and other programmers.
             </p>
-            <a href='' target="_blank" rel="noopener noreferrer"> Github </a>
-            <p> +1 604-396-7839 </p>
+            <a href='https://github.com/PG22Arseniy?tab=repositories' target="_blank" rel="noopener noreferrer"> Github </a>
+            <p> +972 55-5617506 </p>
             <p> arseniyskudaev@gmail.com </p> 
           </div>
           <div className='skills'>
