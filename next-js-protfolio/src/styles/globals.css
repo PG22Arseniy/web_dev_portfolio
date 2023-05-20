@@ -22,8 +22,7 @@
   @media screen and (max-width: 700px) { 
     .pageContent{
       padding: 20px 10px;
-      overflow-x: scroll;
-      min-width: 700px;
+      overflow-x: scroll; 
     }
     
 }
@@ -66,5 +65,9 @@
 .customButton:disabled{ 
     background-color: gray; 
 } 
+
+.pageContainer{
+  min-width: 700px; 
+}
  
 
